@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <!-- Title and metadata section -->
+    <head>
+        <title>My Responsive Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is my responsive website (desktop and iPhone 12 pro screens)">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&display=swap" rel="stylesheet">
+    </head>
+
+    <!-- Website Content -->
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <section class="logo">
+                <a><img src="assets/img/logo.jpg" alt="Oji Seichi Logo" width="250"/></a>
+            </section>
+            <section class="nav-items montserrat-bold">
+                <ul>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#mazemen"><li>Mazemen</li></a>
+                    <a href="#sandys"><li>Sandys</li></a>
+                    <a href="#footer"><li>Contact</li></a>
+                </ul>
+            </section>
+        </nav>
+
+        <!-- Parallax -->
+        <section id="parallax">
+            <h1 class="pr-regular">Oji Seichi</h1>
+            <h2 class="montserrat-regular">Toronto's contemporary passion for food marries beautifully with traditional cuisine.</h2>
+        </section>
+
+        <!-- Main -->
+        <div class="row">
+            <!-- About -->
+            <section class="about" id="about">
+                <img src="assets/img/noods.webp" width="300">
+                <p class="montserrat-bold">Oji Seichi is your neighbourhood ramen shop based in East Chinatown, Toronto. Inspired by our family's Japanese Canadian roots, we focus on bringing people together with ramen, sandys and gyoza.</p>
+            </section>
+        </div>
+        <div class="row">
+            <!-- Mazemen Options -->
+            <h3 class="pr-regular">Try Our Mazemen Ramen Flavors</h3>
+            <section class="mazemen montserrat-regular" id="mazemen">
+                <div class="column">
+                    <img src="assets/img/oji-mazemen.png" >
+                    <h4 class="pr-regular">Oji Mazemen</h4>
+                    <p>Pork belly, onsen egg, katsuobushi, scallion, nori, beni shōga, kanikama, pickled napa</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/spicy-oji-mazemen.png" >
+                    <h4 class="pr-regular">Spicy Oji Mazemen</h4>
+                    <p>Pork belly, onsen egg, katsuobushi, scallion, nori, beni shōga, kanikama, pickled napa, chili oil</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/brisket-mazemen.png" >
+                    <h4 class="pr-regular">Brisket Mazemen</h4>
+                    <p>Slow cooked beef brisket, black garlic oil, eggplant & tomato, chili vinegar, fried onion, scallion, nori</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/curry-mushroom.png" >
+                    <h4 class="pr-regular">Curry Mushroom</h4>
+                    <p>Maitake & shiitake, onsen egg, scallion, nori, beni shōga, kikurage, pickled napa</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/oji-lite-mazemen.png" >
+                    <h4 class="pr-regular">Oji Lite Mazemen</h4>
+                    <p>Scallion, pickled napa, nori, onsen egg</p>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <!-- Sandys Options -->
+            <h3 class="pr-regular">Explore Our Variety of Sandys</h3>
+            <section class="sandys montserrat-regular" id="sandys">
+                <div class="column">
+                    <img src="assets/img/chicken-katsu-sandy.png" >
+                    <h4 class="pr-regular">Chicken Katsu Sandy</h4>
+                    <p>Cabbage, daikon, tonkatsu sauce, mayo</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/brisket-sandy.png" >
+                    <h4 class="pr-regular">Beef Brisket Sandy</h4>
+                    <p>Cabbage, wasabi mayo</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/shrimp-sandy.png" >
+                    <h4 class="pr-regular">Shrimp Sandy</h4>
+                    <p>Iceberg, curry remoulade</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/veg-korokke-sandy.png" >
+                    <h4 class="pr-regular">Veg Korokke Sandy</h4>
+                    <p>Cabbage, daikon, tonkatsu sauce, mayo</p>
+                </div>
+                <div class="column">
+                    <img src="assets/img/gyoza.png" >
+                    <h4 class="pr-regular">Gyoza</h4>
+                    <p>With the option of either pork or chicken filling</p>
+                </div>
+            </section>
+        </div>
+
+        <!-- Call to Action -->
+        <section class="cta montserrat-regular">
+            <h4 class="pr-regular">Sending Noods. <br>Now Delivering.</h4>
+            <p>Support local and order delivery directly from our website. This allows us to save on commission fees from our third party delivery service. Saving on these fees helps us allocate more time and resources into creating a better experience for our guests.</p>
+            <button class="montserrat-bold">Deliver to Me</button>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" class="montserrat-regular">
+            <div class="col-3">
+                <h5 class="pr-regular">Address</h5>
+                <p>East Chinatown <br>354 Broadview Avenue <br>Toronto, Ontario M4M 2G9</p>
+            </div>
+            <div class="col-3">
+                <h5 class="pr-regular">Hours</h5>
+                <ul>
+                    <li>Mon: CLOSED</li>
+                    <li>Tue to Thu: 12-3pm, 5-9pm</li>
+                    <li>Fri & Sat: 12-3pm, 4-9:30pm</li>
+                    <li>Sun: 12-3pm, 4-9pm</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <h5 class="pr-regular">Contact</h5>
+                <ul>
+                    <a href="mailto:hello@ojiseichi.com"><li>hello@ojiseichi.com</li></a>
+                    <a href="tel:4165194356"><li>416 519 4356</li></a>
+                    <a href="https://www.instagram.com/ojiseichi" target="_blank"><li>Fri & Sat: 12-3pm, 4-9:30pm</li></a>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
